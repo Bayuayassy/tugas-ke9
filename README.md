@@ -1,4 +1,4 @@
-# Praktikum5
+# Hallo teman teman saya
 Nama : Bayu Maulana Ayassy
 
 NIM : 312210166
@@ -82,9 +82,10 @@ Buatlah program sederhana untuk menambahkan data kedalam sebuah list dengan rinc
 - Commit dan push repository ke github.
 
 #### Langkah-langkah :
-1. Buat programnya terlebih dahulu seperti gambar di bawah ini
+1. Buatlah programnya terlebih dahulu seperti gambar di bawah ini
+![2022-11-21 (18)](https://user-images.githubusercontent.com/115678251/203061333-28f8770b-0652-422c-9441-83d99262bd7b.png)
 
-![Screenshot (167)](https://user-images.githubusercontent.com/115867244/202901487-34bb8e31-3dc0-4f2d-b22e-57a71a92cf3b.png)
+
 
     # Membuat Tugas Praktikum
     data =[]
@@ -113,7 +114,8 @@ Buatlah program sederhana untuk menambahkan data kedalam sebuah list dengan rinc
     
 2. Hasil Run
 
-![Screenshot (168)](https://user-images.githubusercontent.com/115867244/202901652-176749d1-4596-4aaf-97e2-9089ef153fc8.png)
+![2022-11-21 (19)](https://user-images.githubusercontent.com/115678251/203061411-8b29a3f0-aef7-4dcf-b2ca-edfb783ff470.png)
+
 
 
 ### Penjelasan Program :
@@ -127,7 +129,8 @@ Buatlah program sederhana untuk menambahkan data kedalam sebuah list dengan rinc
 8. Selesai
 
 ### Flowchart tugas ke-9
-![Gambar 1](https://user-images.githubusercontent.com/115678251/203059485-84cc4510-4ee5-40cc-a359-6a6c16768b36.jpg)
+![Gambar 1](https://user-images.githubusercontent.com/115678251/203061744-140d6a4b-0c09-4dac-bf43-7cb0025f3440.jpg)
 
 
-### Sekian, Terima kasih 
+
+### Sekian, Terima kasih teman teman 
