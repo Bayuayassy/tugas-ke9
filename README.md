@@ -85,30 +85,30 @@ Buatlah program sederhana untuk menambahkan data kedalam sebuah list dengan rinc
 1. Buatlah programnya terlebih dahulu seperti gambar di bawah ini
 ![2022-11-21 (18)](https://user-images.githubusercontent.com/115678251/203061333-28f8770b-0652-422c-9441-83d99262bd7b.png)
 
-        # Membuat tugas praktikum
-        data =[]
-        while True :
-            nama       = input    ("Nama        : ")
-            nim        = input    ("NIM         : ")
-            tugas      = int(input("Nilai Tugas : "))
-            uts        = int(input("Nilai UTS   : "))
-            uas        = int(input("Nilai UAS   : "))
-            nilaiakhir = float(tugas)*30/100+(uts)*35/100+(uas)*35/100
-            data.append([nama,nim,tugas,uts,uas,nilaiakhir])
-            lagi= input("Tambah data (ya/tidak)? ")
-            if lagi.lower() =="tidak":
-                break
+            # Membuat tugas praktikum
+            data =[]
+            while True :
+                nama       = input    ("Nama        : ")
+                nim        = input    ("NIM         : ")
+                tugas      = int(input("Nilai Tugas : "))
+                uts        = int(input("Nilai UTS   : "))
+                uas        = int(input("Nilai UAS   : "))
+                nilaiakhir = float(tugas)*30/100+(uts)*35/100+(uas)*35/100
+                data.append([nama,nim,tugas,uts,uas,nilaiakhir])
+                lagi= input("Tambah data (ya/tidak)? ")
+                if lagi.lower() =="tidak":
+                    break
 
 
-    print("=====================================================================================");
-    print("|  No  |     Nama     |     NIM     |   Tugas   |   UTS   |   UAS   |  Nilai Akhir  |");
-    print("=====================================================================================");
-    i=0
-    for x in data:
-        i+=1
-        print("|  {6:2}  |  {0:10}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
-              .format (x[0][:9] , x[1][:9],x[2],x[3],x[4],x[5], i))
-    print("=====================================================================================");
+        print("=====================================================================================");
+        print("|  No  |     Nama     |     NIM     |   Tugas   |   UTS   |   UAS   |  Nilai Akhir  |");
+        print("=====================================================================================");
+        i=0
+        for x in data:
+            i+=1
+            print("|  {6:2}  |  {0:10}  |  {1:9}  |  {2:7}  |  {3:5}  | {4:6}  |  {5:11.2f}  |"\
+                  .format (x[0][:9] , x[1][:9],x[2],x[3],x[4],x[5], i))
+        print("=====================================================================================");
 
     
     
